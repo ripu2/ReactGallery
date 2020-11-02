@@ -6,10 +6,10 @@ class Header extends React.Component{
     }
     render(){
         return (
-            <div className="ui three item menu">
-                <a className="item" onClick={this.onClickInput} href="/">Editorials</a>
-                <a className="active item" onClick={this.onClickInput} href="/">Reviews</a>
-                <a className="item" onClick={this.onClickInput} href="/" >Upcoming Events</a>
+            <div Name="ui three item menu">
+                <a Name="item" onClick={this.onClickInput} href="/">Editorials</a>
+                <a Name="active item" onClick={this.onClickInput} href="/">Reviews</a>
+                <a Name="item" onClick={this.onClickInput} href="/" >Upcoming Events</a>
             </div>
         )
     }

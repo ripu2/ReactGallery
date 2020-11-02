@@ -2,3 +2,16 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
    
 }
+.image-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));  
+    grid-gap: 1.2em;
+}
+
+.image-list img{
+
+    width: 250px;
+}
+.type {
+    display:  inline !important;
+}

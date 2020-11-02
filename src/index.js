@@ -2,7 +2,6 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Unsplash from "./api/unSplash"
 import ImageList from "./components/ImageList"
-//import Headers from "./components/header"
 import SearchBar from "./components/SearchBar"
 
 import "./components/styles/app.css"
